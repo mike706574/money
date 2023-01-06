@@ -7,3 +7,5 @@ TAGS
 checkouts/*
 target/*
 .nrepl*
+.clj-kondo
+.lsp
