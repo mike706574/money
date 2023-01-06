@@ -103,7 +103,7 @@
   "Returns the currency code of the given currency"
   [^CurrencyUnit cu]
   (when cu
-    (.getCurrencyCode cu)))
+    (.getCode cu)))
 
 (defmacro defalias
   [^String s]
